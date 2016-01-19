@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<title>BallClock</title>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.1.min.js"></script>
+    <script src="BallClock.js"></script>
+
+  </head>
+<body bgcolor='lightblue'>
+	<br>
+	The following is used for functional testing of the clock code itself (click Minute Tick multiple times):<br>
+	<div>
+
+	<form>
+		<input type='button' id='btnTick' value='Minute Tick'>
+
+		<label for='textMinInd'>Minute Indicator</label>
+		<input type='text' id='textMinInd' size='15'>
+		<label for='textFiveMinInd'>Five Minute Indicator</label>
+		<input type='text' id='textFiveMinInd' size='45'>
+		<label for='textHourInd' >Hour Indicator</label>
+		<input type='text' id='textHourInd' size='45'>
+		<br>
+		<label for='textQueue'>Queue</label>
+		<input type='text' id='textQueue' size='200'>
+	
+		<br><br>
+		<hr>
+		<br>
+		The following calculates the number of days for a repeat based upon the number of balls.
+		<div>
+			<label for='chkAnimate'>Animate indicator fields (very slow): </label>
+			<input type="checkbox" id="chkAnimate" value="0"/><br>
+			<label for='textNumBalls'>Number of Balls</label>
+			<input type='text' id='textNumBalls'>
+			<input type='button' id='btnCalc' value='Calculate'>
+			<br>
+			<label for='spanNumOfDays'>Number of Days: </label>
+			<span id='spanNumOfDays'></span>
+	    </div>
+	</form>
+
+</body>
+</html>
