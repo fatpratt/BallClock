@@ -1,0 +1,3 @@
+# BallClock
+Time is the measure of movement...
+Used as a programming challenge in application for job.
